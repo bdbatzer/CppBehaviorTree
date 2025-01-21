@@ -1,0 +1,6 @@
+Build/
+build/
+bt-builder/
+*.png
+clang-*
+.DS_Store

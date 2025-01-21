@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.buildDirectory": "${workspaceRoot}/Build",
+    "cmake.generator": "Unix Makefiles",
+    "cmake.buildTask": true,
+    "cmake.copyCompileCommands": "${workspaceRoot}/Build/compile_commands.json",
+    "clangd.enable": true,
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceRoot}/Build",
+        "-log=verbose",
+        "-pretty",
+        "--background-index"
+    ]
+}
