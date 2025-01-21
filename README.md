@@ -71,6 +71,6 @@ export default function Home() {
 You can run the deployment server with the following command: `npm run dev`. Open a browser and go to `http://localhost:3000/` to see the app in action!
 ## Use
 You'll start with the control and decorator nodes provided in `BtNodes.hpp` but can add nodes of your own creation by using the "Upload C++ File" button on the left (the logic for grabbing nodes here is primitive -- it's just a regex for C++ class/struct objects that have a `Tick` function signature so be aware of it grabbing things that might not be intended to be behavior tree nodes) 
-![Opening Page](<Screenshot 2025-01-21 at 12.01.48 AM.png>)
+<img width="999" alt="Screenshot 2025-01-21 at 12 01 48 AM" src="https://github.com/user-attachments/assets/95df847e-40f9-4908-891e-ff61b69263c7" />
 Once you've uploaded nodes, you can add them to the "Tree Structure" panel below and start reordering them. The drag and drop is a bit clunky but if you click and drag a node to near the _bottom_ of another then that will attempt to add it as child. If you drag and drop it near the _left_ of another node then that will postion it to the left. Clicking on the big minus `-` sign to the right of the node will delete that node and all its children
-![Example Tree](<Screenshot 2025-01-21 at 12.33.22 AM.png>)
+<img width="1004" alt="Screenshot 2025-01-21 at 12 33 22 AM" src="https://github.com/user-attachments/assets/0cec85a2-a7ab-4e5f-9571-98d675cc81e8" />
